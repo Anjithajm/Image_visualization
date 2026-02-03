@@ -3,12 +3,12 @@ This is a python code to access the hdf5 file of galaxy/quasar/stars cutouts.
 
 ## Requirements
 -`Python 3.7 or later `
--`astropy`
--`numpy`
--`matplotlib`
+- `astropy`
+- `numpy`
+- `matplotlib`
 
-- `numpy==2.1.3`
-- `scipy==1.15.2`
+- `numpy`
+-
 - `astropy==7.0.1`
 - `reproject==0.14.1`
 
