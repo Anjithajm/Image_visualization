@@ -1,5 +1,5 @@
-This is a python code to access the hdf5 file of galaxy/quasar/stars image files. 
-It requires following libraries:
+This is a python code to access the hdf5 file of galaxy/quasar/stars cutouts. 
+---
 
 ## Requirements
 -Python 3.7 or later  
@@ -7,7 +7,7 @@ It requires following libraries:
 -numpy
 -matplotlib
 
-You can use the following command to install these libraries. 
+Use the following command to install these libraries. 
 ```
 pip install astropy numpy matplotlib
 ```
