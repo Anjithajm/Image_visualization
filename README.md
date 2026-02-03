@@ -12,7 +12,7 @@ Use the following command to install these libraries.
 ```
 pip install astropy numpy matplotlib
 ```
-See the 
+See, 
 ```
 cutout_data.ipynb file
 ```
