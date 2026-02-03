@@ -12,6 +12,11 @@ Use the following command to install these libraries.
 ```
 pip install astropy numpy matplotlib
 ```
+See the 
+```
+cutout_data.ipynb file
+```
+
 Astronomical images are taken in four optical bands, namely u,g,r and i.
 The cutouts of these images are made from the Kilo-degree Survey (KiDS)-DR4 telescope tiles which is publicly available. See https://kids.strw.leidenuniv.nl/DR4/index.php
 
