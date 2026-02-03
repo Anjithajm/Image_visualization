@@ -7,11 +7,6 @@ This is a python code to access the hdf5 file of galaxy/quasar/stars cutouts.
 - `numpy`
 - `matplotlib`
 
-- `numpy`
--
-- `astropy==7.0.1`
-- `reproject==0.14.1`
-
 
 Use the following command to install these libraries. 
 ```
