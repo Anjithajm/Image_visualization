@@ -49,3 +49,8 @@ Demonstrates how to load the HDF5 file, reshape the image data, and feed it into
   → reshape to (N, 36, 36, 4)
   → CNN input layer
   → Conv2D + pooling layers
+
+## Important note
+- Preprocess the image data before feeding it into a deep neural network.
+- Be careful with the preprocessing since flux information is really important for astronomical data.
+  
