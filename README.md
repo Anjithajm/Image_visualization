@@ -2,7 +2,7 @@
 
 This repository contains Python code to read HDF5 files of astronomical image cutouts
 (galaxies, quasars, and stars) and to prepare these images as input for
-Convolutional Neural Networks (CNNs).
+Convolutional Neural Networks (CNNs) and their visualization.
 
 The accompanying Jupyter notebook demonstrates how to load the data and use it
 for deep learning applications.
