@@ -26,3 +26,52 @@ This means, 36 pixels in x and y-direction of image with number of channels=4.
 1 pixel=0.2 arcsec in KiDS-DR4.
 
 All cutouts are made by using the following code and is publicly available now, https://github.com/Anjithajm/cutout
+
+***How to feed Images into CNN layers***
+
++----------------------+
+|     HDF5 File        |
+|   (image dataset)    |
++----------+-----------+
+           |
+           v
++----------------------+
+| Load image column    |
++----------+-----------+
+           |
+           v
++----------------------+
+| Convert to NumPy     |
+| array                |
++----------+-----------+
+           |
+           v
++----------------------+
+| Reshape              |
+| (N, 36, 36, 4)       |
++----------+-----------+
+           |
+           v
++----------------------+
+| CNN Input Layer      |
+| (36, 36, 4)          |
++----------+-----------+
+           |
+           v
++----------------------+
+| Conv2D (7×7)         |
+| 64 filters, ReLU     |
++----------+-----------+
+           |
+           v
++----------------------+
+| AveragePooling2D     |
+| (3×3)                |
++----------+-----------+
+           |
+           v
++----------------------+
+| Conv2D (1×1)         |
+| 64 filters, ReLU     |
++----------------------+
+
