@@ -50,6 +50,11 @@ Demonstrates how to load the HDF5 file, reshape the image data, and feed it into
   → CNN input layer
   → Conv2D + pooling layers
 
+## Additional info
+For the multi-class classification task (GALAXY, QSO, STAR), the three separate datasets must first be combined into a single dataset. After stacking the stars, qso, and galaxies HDF5 files, the image data are loaded from the image column.
+
+The target labels are provided by the SPECTYPE column, which indicates the object class (STAR, GALAXY, or QSO). The SPECTYPE values are stored as strings, not as numeric labels (e.g., 0 or 1), and therefore must be encoded before training the CNN.
+
 ## Important note
 - Preprocess the image data before feeding it into a deep neural network.
 - Be careful with the preprocessing since flux information is really important for astronomical data.
