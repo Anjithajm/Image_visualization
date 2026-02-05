@@ -6,11 +6,12 @@ This is a python code to access the hdf5 file of galaxy/quasar/stars cutouts.
 - `astropy`
 - `numpy`
 - `matplotlib`
+- tensorflow
 
 
 Use the following command to install these libraries. 
 ```
-pip install astropy numpy matplotlib
+pip install astropy numpy matplotlib tensorflow
 ```
 See, 
 ```
